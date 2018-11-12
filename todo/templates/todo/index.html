@@ -10,6 +10,7 @@
     {% for todo in todos %}
         <h1> {{todo.title}} </h1>
         <h5> {{todo.deadline}}</h5>
+        <a href="/todos/{{todo.id}}">보기</a>
     {% endfor %}
 </body>
 </html>
